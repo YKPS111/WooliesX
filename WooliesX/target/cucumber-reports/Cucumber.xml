@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="59.39007">
+<testcase classname="Apply for a Number Plate in your preferred RTA" name="Navigate to the web site search for two products add to cart and place an order." time="59.39007">
+<system-out><![CDATA[Given I navigate to the http://automationpractice.com/index.php/............passed
+When I search for Dresses...................................................passed
+And I Click on 1st Product..................................................passed
+And I Click on Add to cart Button...........................................passed
+And I Click on 2nd Product..................................................passed
+And I Click on Add to cart Button...........................................passed
+And I Proceed to gotoCart Button............................................passed
+Then I Click on Proceed to checkout.........................................passed
+And I Enter the emailaddress ykparthasarathy@gmail.com......................passed
+And I Enter the password Password@1.........................................passed
+And I Click Sign in Button..................................................passed
+And I Click on Second Proceed to checkout...................................passed
+And I Select Terms of service checkbox......................................passed
+And I Click on Final Proceed to checkout....................................passed
+And I Click on Pay by bank wire.............................................passed
+And I Click on I confirm my order Button....................................passed
+And I Should see confirmation Text..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

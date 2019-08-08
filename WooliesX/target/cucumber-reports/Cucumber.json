@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4811333741,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Navigate to the web site search for two products add to cart and place an order.",
+        "description": "",
+        "id": "apply-for-a-number-plate-in-your-preferred-rta;navigate-to-the-web-site-search-for-two-products-add-to-cart-and-place-an-order.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1112196701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10245194272,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the http://automationpractice.com/index.php/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php/",
+                  "offset": 18
+                }
+              ],
+              "location": "ShoppingOnline.iNavigateToThe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2526448559,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for Dresses",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dresses",
+                  "offset": 13
+                }
+              ],
+              "location": "ShoppingOnline.iSearchFor(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2639667144,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Click on 1st Product",
+            "match": {
+              "location": "ShoppingOnline.iClickOnFirstProductButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9863264337,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on Add to cart Button",
+            "match": {
+              "location": "ShoppingOnline.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3189760076,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on 2nd Product",
+            "match": {
+              "location": "ShoppingOnline.iClickOnSecondProductButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10673373793,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Click on Add to cart Button",
+            "match": {
+              "location": "ShoppingOnline.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137881315,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Proceed to gotoCart Button",
+            "match": {
+              "location": "ShoppingOnline.iClickOnGoToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2338979788,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click on Proceed to checkout",
+            "match": {
+              "location": "ShoppingOnline.iClickOnProceedToCheckOut()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177033780,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter the emailaddress ykparthasarathy@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ykparthasarathy@gmail.com",
+                  "offset": 25
+                }
+              ],
+              "location": "ShoppingOnline.iEnterEmailAddress(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85459525,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter the password Password@1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@1",
+                  "offset": 21
+                }
+              ],
+              "location": "ShoppingOnline.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226270030,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click Sign in Button",
+            "match": {
+              "location": "ShoppingOnline.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1715991775,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Click on Second Proceed to checkout",
+            "match": {
+              "location": "ShoppingOnline.iClickOnSecondProceedToCheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75710726,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Select Terms of service checkbox",
+            "match": {
+              "location": "ShoppingOnline.iClickTermsandConditionsCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1489590573,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click on Final Proceed to checkout",
+            "match": {
+              "location": "ShoppingOnline.iClickOnFinalProceedToCheckOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1600016784,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Click on Pay by bank wire",
+            "match": {
+              "location": "ShoppingOnline.iClickPaybyBankWire()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2452530890,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I Click on I confirm my order Button",
+            "match": {
+              "location": "ShoppingOnline.iClickConfirmOrderButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29366640,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Should see confirmation Text",
+            "match": {
+              "location": "ShoppingOnline.seeOrderConfirmation()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Apply for a Number Plate in your preferred RTA",
+    "description": "",
+    "id": "apply-for-a-number-plate-in-your-preferred-rta",
+    "keyword": "Feature",
+    "uri": "ApplyForNumberPlate.feature"
+  }
+]
