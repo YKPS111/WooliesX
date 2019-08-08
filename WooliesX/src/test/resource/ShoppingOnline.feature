@@ -1,4 +1,4 @@
-Feature: Apply for a Number Plate in your preferred RTA
+Feature: Online Shopping Experience
 
   Scenario Outline: Navigate to the web site search for two products add to cart and place an order.
     Given I navigate to the <URL>
